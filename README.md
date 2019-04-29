@@ -13,3 +13,5 @@ end
 4. Added the `javascript_pack_tag` and `stylesheet_pack_tag` helpers to `app/views/layouts/application.html.erb`.
 5. Added `root "home#index"` to the `routes.rb`. Also added a trivial `HomeController` to `app/controllers/` and stub `index.html.erb` to `app/views/home/`
 6. Added a trivial Blueprint Popover example to `app/javascript/packs/hello_react.jsx`.
+
+Run this repo by running `bundle exec rails server` inside the repo. To activate `webpack-dev-server`, run `./bin/webpack-dev-server` in a parallel process.
